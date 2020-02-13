@@ -61,9 +61,9 @@ g3 <- g1 + annotation_custom(ggplotGrob(g1_sub), xmin = as.POSIXct("2020-01-18")
 
 covid_text <- covid3[c(1, 3, 7, 8),] %>%
   mutate(
-    esumm=c("Reporting of\nthe first case",
-            "Expansion of\ncase definition",
-            "Expansion of\ncase definition",
+    esumm=c("Reported the\nfirst case",
+            "Expanded the\ncase definition",
+            "Expanded the\ncase definition",
             "Increased testing\nfacilities")
   )
 
