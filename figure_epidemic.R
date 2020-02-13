@@ -61,15 +61,16 @@ g3 <- g1 + annotation_custom(ggplotGrob(g1_sub), xmin = as.POSIXct("2020-01-18")
 
 covid_text <- covid3[c(1, 3, 7, 8),] %>%
   mutate(
-    esumm=c("Reporting of the first case",
-            "Expansion of case definition",
-            "Expansion of case definition",
-            "Increased testing facilities")
+    esumm=c("Reporting of\nthe first case",
+            "Expansion of\ncase definition",
+            "Expansion of\ncase definition",
+            "Increased testing\nfacilities")
   )
 
 g4 <- g2 + annotation_custom(ggplotGrob(g2_sub), xmin = as.POSIXct("2020-01-18"), xmax = as.POSIXct("2020-02-05"), 
                              ymin = 300, ymax = 1000) +
-  geom_text(data=covid_text, aes(date, c(-100, -100, -100, -130), label=esumm), size=1.5) +
+  geom_text(data=covid_text, aes(date, c(-110, -110, -110, -200), label=esumm), size=2.2,
+            lineheight=0.85) +
   geom_segment(data=covid_text, aes(date, xend=date, y=0, yend=-80), lty=3, size=0.2)
 
 gtot <- arrangeGrob(g3, g4, nrow=1)
