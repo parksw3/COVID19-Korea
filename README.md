@@ -24,8 +24,8 @@ Last updated at 4:50 PM EST February 14, 2020
 * `age`: age
 * `year_of_birth`: year of birth
 * `sex`: sex
-* `date_contact_min`: minimum date on which a patient could have been infected (e.g., after their infectors were imported, etc.)
-* `date_contact_max`: maximum date on which a patient could have been infected (e.g., before symptom onset, before self-quarantine, before their infectors were confirmed to be infected, etc.)
+* `date_contact_min`: the first date on which a patient could have been infected (e.g., after their infectors were imported, etc.)
+* `date_contact_max`: the last date on which a patient could have been infected (e.g., before symptom onset, before self-quarantine, before their infectors were confirmed to be infected, etc.)
 * `date_import`: date of import
 * `date_onset`: date of symptom onset
 * `date_qurantine`: the first date of quarantine
