@@ -1,18 +1,19 @@
 # COVID-19 South Korea
 
-Public line list and summaries of the COVID-19 outbreak in South Korea. 
+Public line list and summaries of the COVID-19 outbreak in South Korea. Translated and transcribed by Sang Woo Park.
 
 Sources:
 * KCDC press release: https://www.cdc.go.kr/board/board.es?mid=a20501000000&bid=0015
 * Official Website of the Seoul Metropolitan Government: http://news.seoul.go.kr/welfare/archives/513105
 
 contact: swp2@princeton.edu
+twitter: @sang_woo_park
 
 # Spreadsheet
 
 Google sheets:
 
-Last updated at 6:25 PM EST February 13, 2020 
+Last updated at 3:14 PM EST February 14, 2020 
 
 ### Sheet 1 -- Line list
 
