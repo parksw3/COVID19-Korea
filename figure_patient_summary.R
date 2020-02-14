@@ -47,7 +47,7 @@ covid_age <- covid1 %>%
 
 g1 <- ggplot(covid_age) +
   geom_bar(aes(age2, fill=sex), position = position_dodge2(width = 0.9, preserve = "single")) +
-  scale_fill_manual(values=cpalette) +
+  scale_fill_manual(values=cpalette[c(4, 7)]) +
   xlab("Age group") +
   scale_y_continuous("Number of cases", limits=c(0, NA), expand=c(0, 0)) +
   ggtitle("Age and sex") +
