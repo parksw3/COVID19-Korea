@@ -12,7 +12,7 @@ Contact:
 
 # Spreadsheet
 
-Google sheets:
+Google sheets: https://docs.google.com/spreadsheets/d/1nKRkOwnGV7RgsMnsYE6l96u4xxl3ZaNiTluPKEPaWm8/edit?usp=sharing
 
 Last updated at 3:14 PM EST February 14, 2020 
 
