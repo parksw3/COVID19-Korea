@@ -3,11 +3,12 @@
 Public line list and summaries of the COVID-19 outbreak in South Korea. Translated and transcribed by Sang Woo Park.
 
 Sources:
-* KCDC press release: https://www.cdc.go.kr/board/board.es?mid=a20501000000&bid=0015
+* KCDC press release: https://www.cdc.go.kr/board/board.es?mid=a20501000000&bid=0015  
 * Official Website of the Seoul Metropolitan Government: http://news.seoul.go.kr/welfare/archives/513105
 
-contact: swp2@princeton.edu
-twitter: @sang_woo_park
+Contact:
+* email: swp2@princeton.edu  
+* Twitter: @sang_woo_park
 
 # Spreadsheet
 
@@ -35,7 +36,7 @@ Last updated at 3:14 PM EST February 14, 2020
 * `date_recovery`: date on which a patient recovered
 * `symptoms`: symptoms reported prior to confirmation
 * `preexisting_conditions`: preexisting conditions prior to infection
-* `KCDC_no`: article number on the KCDC website: https://www.cdc.go.kr/board/board.es?mid=a20501000000&bid=0015
+* `KCDC_no`: article number on the KCDC website
 * `date_last_accessed`: date on which articles were last accessed and the information was modified
 
 ### Sheet 2 -- Cumulative case counts
@@ -51,7 +52,7 @@ Last updated at 3:14 PM EST February 14, 2020
 * `positive`: cumulative number of positive cases
 * `negative`: cumulative number of negative cases
 * `unknown`: number of individuals still under a test
-* `KCDC_no`: article number on the KCDC website: https://www.cdc.go.kr/board/board.es?mid=a20501000000&bid=0015
+* `KCDC_no`: article number on the KCDC website
 * `note`: miscellaneous notes
 
 ### Sheet 3 -- Important dates
@@ -59,7 +60,7 @@ Last updated at 3:14 PM EST February 14, 2020
 * `date`: date
 * `event`: event
 * `note`: miscellaneous notes
-* `KCDC_no`: article number on the KCDC website: https://www.cdc.go.kr/board/board.es?mid=a20501000000&bid=0015
+* `KCDC_no`: article number on the KCDC website
 
 # Summary figures
 
