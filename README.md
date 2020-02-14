@@ -67,6 +67,6 @@ Last updated at 3:14 PM EST February 14, 2020
 
 ![Epidemic curves](https://github.com/parksw3/COVID19-Korea/blob/master/figure_epidemic.png)
 
-### Symptoms
+### Summaries
 
-![Symptoms](https://github.com/parksw3/COVID19-Korea/blob/master/figure_patient_summary.png)
+![Summaries](https://github.com/parksw3/COVID19-Korea/blob/master/figure_patient_summary.png)
