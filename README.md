@@ -44,7 +44,7 @@ Last updated at 3:14 PM EST February 14, 2020
 * `date`: date
 * `suspected cases`: cumulative number of suspected cases
   * 2020-01-20 - 2020-01-25: anyone who develops fever or respiratory symptoms within 14 days of returning from Wuhan
-  * 2020-01-26 - 2020-02-06: ianyone who develops pneumonia (based on radiological evidence) within 14 days after returning from China
+  * 2020-01-26 - 2020-02-06: anyone who develops pneumonia (based on radiological evidence) within 14 days after returning from China
   * 2020-02-07 - now:
     * Anyone who develops fever or respiratory symptoms within 14 days of returning from China
     * Anyone who develops fever or respiratory symptoms within 14 days of having a close contact with a confirmed case
