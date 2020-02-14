@@ -2,6 +2,8 @@
 
 Public line list and summaries of the COVID19 outbreak in South Korea
 
+contact: swp2@princeton.edu
+
 # Line list
 
 Google sheets:
