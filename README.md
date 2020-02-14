@@ -16,7 +16,7 @@ Google sheets:
 
 Last updated at 3:14 PM EST February 14, 2020 
 
-### Sheet 1 -- Line list
+### Sheet 1: Line list
 
 * `case`: case identifier
 * `ncontact`: number of contactees
@@ -39,13 +39,13 @@ Last updated at 3:14 PM EST February 14, 2020
 * `KCDC_no`: article number on the KCDC website
 * `date_last_accessed`: date on which articles were last accessed and the information was modified
 
-### Sheet 2 -- Cumulative case counts
+### Sheet 2: Cumulative case counts
 
 * `date`: date
 * `suspected cases`: cumulative number of suspected cases
-  * 2020-01-20 --- 2020-01-25: anyone who develops fever or respiratory symptoms within 14 days of returning from Wuhan
-  * 2020-01-26 --- 2020-02-06: ianyone who develops pneumonia (based on radiological evidence) within 14 days after returning from China
-  * 2020-02-07 --- now:
+  * 2020-01-20 - 2020-01-25: anyone who develops fever or respiratory symptoms within 14 days of returning from Wuhan
+  * 2020-01-26 - 2020-02-06: ianyone who develops pneumonia (based on radiological evidence) within 14 days after returning from China
+  * 2020-02-07 - now:
     * Anyone who develops fever or respiratory symptoms within 14 days of returning from China
     * Anyone who develops fever or respiratory symptoms within 14 days of having a close contact with a confirmed case
     * Anyone suspected of COVID-19 by a clinician based on travel history and clinical symptoms
@@ -55,7 +55,7 @@ Last updated at 3:14 PM EST February 14, 2020
 * `KCDC_no`: article number on the KCDC website
 * `note`: miscellaneous notes
 
-### Sheet 3 -- Important dates
+### Sheet 3: Important dates
 
 * `date`: date
 * `event`: event
