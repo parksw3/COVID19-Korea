@@ -23,10 +23,10 @@ sympdata <- symptom_by_p %>%
     text=paste0(length(symptoms), "/", nrow(covid1))
   ) %>%
   mutate(
+    symptoms=ifelse(symptoms=="symptomatic", "symptomatic\nbut unspecified", symptoms),
     type=1,
-    type=ifelse(symptoms=="symptomatic", 2, type),
-    type=ifelse(symptoms=="none before confirmation", 3, type),
-    type=factor(type, levels=c(1, 2, 3))
+    type=ifelse(symptoms=="none before confirmation", 2, type),
+    type=factor(type, levels=c(1, 2))
   ) %>%
   arrange(type) %>%
   group_by(type) %>%
@@ -59,10 +59,9 @@ g1 <- ggplot(covid_age) +
   )
 
 g2 <- ggplot(sympdata) +
-  geom_bar(aes(symptoms, prop, fill=type), stat="identity") +
+  geom_bar(aes(symptoms, prop), stat="identity", fill=cpalette[3]) +
   geom_text(aes(symptoms, prop+0.04, label=text)) +
   scale_y_continuous("Proportions", limits=c(0, 1), expand=c(0, 0)) +
-  scale_fill_manual(values=cpalette) +
   ggtitle("Symptoms") +
   btheme +
   theme(axis.text.x = element_text(angle = 45, hjust = 1),
