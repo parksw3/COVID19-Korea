@@ -14,14 +14,15 @@ Contact:
 
 Google sheets: https://docs.google.com/spreadsheets/d/1nKRkOwnGV7RgsMnsYE6l96u4xxl3ZaNiTluPKEPaWm8/edit?usp=sharing
 
-Last updated at 3:14 PM EST February 14, 2020 
+Last updated at 4:50 PM EST February 14, 2020 
 
 ### Sheet 1: Line list
 
 * `case`: case identifier
 * `ncontact`: number of contactees
 * `nquaratine`: number of contactees that are under quarantine
-* `age`: reported age (unclear if this is Korean age)
+* `age`: reported age (unclear whether this represents Korean age)
+* `year_of_birth`: year of birth
 * `sex`: sex
 * `date_contact_min`: minimum date on which a patient could have been infected (e.g., after their infectors were imported, etc.)
 * `date_contact_max`: maximum date on which a patient could have been infected (e.g., before symptom onset, before self-quarantine, before their infectors were confirmed to be infected, etc.)
