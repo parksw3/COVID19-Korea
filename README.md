@@ -21,7 +21,7 @@ Last updated at 3:14 PM EST February 14, 2020
 * `case`: case identifier
 * `ncontact`: number of contactees
 * `nquaratine`: number of contactees that are under quarantine
-* `age`: age
+* `age`: reported age (unclear if this is Korean age)
 * `sex`: sex
 * `date_contact_min`: minimum date on which a patient could have been infected (e.g., after their infectors were imported, etc.)
 * `date_contact_max`: maximum date on which a patient could have been infected (e.g., before symptom onset, before self-quarantine, before their infectors were confirmed to be infected, etc.)
