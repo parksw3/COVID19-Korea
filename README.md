@@ -34,7 +34,7 @@ Last updated at 12:03 PM EST February 15, 2020
 * `date_confirm`: date of confirmation
 * `source`: sources of infection
 * `import_source`: sources of importation
-* `date_recovery`: date on which a patient recovered
+* `date_recovery`: date on which a patient recovered and was discharched
 * `symptoms`: symptoms reported prior to confirmation
 * `preexisting_conditions`: preexisting conditions prior to infection
 * `KCDC_no`: article number on the KCDC website
