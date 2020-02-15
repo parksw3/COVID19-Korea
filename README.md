@@ -72,3 +72,7 @@ Last updated at 12:03 PM EST February 15, 2020
 ### Summaries
 
 ![Summaries](https://github.com/parksw3/COVID19-Korea/blob/master/figure_patient_summary.png)
+
+### Patients discharged
+
+![Patients discharged](https://github.com/parksw3/COVID19-Korea/blob/master/figure_patient_timeline.png)

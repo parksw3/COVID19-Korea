@@ -1,7 +1,7 @@
 library(readxl)
 
-covid1 <- read_xlsx("COVID19-Korea-2020-02-14.xlsx", sheet=1)
-covid2 <- read_xlsx("COVID19-Korea-2020-02-14.xlsx", sheet=2)
+covid1 <- read_xlsx("COVID19-Korea-2020-02-15.xlsx", sheet=1)
+covid2 <- read_xlsx("COVID19-Korea-2020-02-15.xlsx", sheet=2)
 
 all(covid2$positive + covid2$negative + covid2$unknown == covid2$`suspected cases`, na.rm=TRUE)
 

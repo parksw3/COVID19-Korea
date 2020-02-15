@@ -6,8 +6,8 @@ library(readxl)
 source("color_palette.R")
 source("theme.R")
 
-covid2 <- read_xlsx("COVID19-Korea-2020-02-14.xlsx", sheet=2)
-covid3 <- read_xlsx("COVID19-Korea-2020-02-14.xlsx", sheet=3)
+covid2 <- read_xlsx("COVID19-Korea-2020-02-15.xlsx", sheet=2)
+covid3 <- read_xlsx("COVID19-Korea-2020-02-15.xlsx", sheet=3)
 
 covid2_gather <- covid2 %>%
   gather(key, value, -date, -`KCDC_no (https://www.cdc.go.kr/board/board.es?mid=a20501000000&bid=0015)`,
