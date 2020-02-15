@@ -14,7 +14,7 @@ Contact:
 
 Google sheets: https://docs.google.com/spreadsheets/d/1nKRkOwnGV7RgsMnsYE6l96u4xxl3ZaNiTluPKEPaWm8/edit?usp=sharing
 
-Last updated at 12:03 PM EST February 15, 2020 
+Last updated at 2:34 PM EST February 15, 2020 
 
 ### Sheet 1: Line list
 
@@ -34,7 +34,7 @@ Last updated at 12:03 PM EST February 15, 2020
 * `date_confirm`: date of confirmation
 * `source`: sources of infection
 * `import_source`: sources of importation
-* `date_recovery`: date on which a patient recovered and was discharched
+* `date_discharged`: date on which a patient is discharched
 * `symptoms`: symptoms reported prior to confirmation
 * `preexisting_conditions`: preexisting conditions prior to infection
 * `KCDC_no`: article number on the KCDC website
