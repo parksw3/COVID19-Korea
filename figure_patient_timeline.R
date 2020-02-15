@@ -51,4 +51,4 @@ g1 <- ggplot(covid1_subset_gather) +
     axis.title = element_blank()
   )
 
-ggsave("figure_patient_timeline.png", g1, width=10, height=3)
+ggsave("figure_patient_timeline.png", g1, width=10, height=2.9)
