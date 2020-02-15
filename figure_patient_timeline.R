@@ -24,7 +24,7 @@ covid1_subset_gather <- covid1_subset %>%
     key=factor(key, levels=c("date_import", "date_onset", "date_confirm", "date_discharged"),
                labels=c(
                  "Date imported",
-                 "Date symptom onset", 
+                 "Date of symptom onset", 
                  "Date confirmed as a case",
                  "Date discharged"))
   )
