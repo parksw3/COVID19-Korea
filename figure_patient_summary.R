@@ -6,7 +6,7 @@ library(readxl)
 source("color_palette.R")
 source("theme.R")
 
-covid1 <- read_xlsx("COVID19-Korea-2020-02-15.xlsx", sheet=1)
+covid1 <- read_xlsx("COVID19-Korea-2020-02-16.xlsx", sheet=1)
 
 symptom_by_p <- covid1$symptoms %>%
   sapply(function(x) strsplit(x, ",")) %>%
@@ -36,11 +36,12 @@ sympdata <- symptom_by_p %>%
     symptoms=factor(symptoms, level=symptoms)
   )
 
-agegroup <- c("20-29", "30-39", "40-49", "50-59", "60-69", "70+")
-agebreak <- c(20, 30, 40, 50, 60, 70, 100)
+agegroup <- c("20-29", "30-39", "40-49", "50-59", "60-69", "70-79", "80+")
+agebreak <- c(20, 30, 40, 50, 60, 70, 80, 100)
 
 covid_age <- covid1 %>%
   mutate(
+    age=ifelse(is.na(age), 2020-year_of_birth, age),
     age2=cut(age, breaks=agebreak, include.lowest = TRUE, right=FALSE),
     age2=factor(age2, label=agegroup)
   )
