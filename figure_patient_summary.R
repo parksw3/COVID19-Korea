@@ -6,7 +6,7 @@ library(readxl)
 source("color_palette.R")
 source("theme.R")
 
-covid1 <- read_xlsx("COVID19-Korea-2020-02-16.xlsx", sheet=1)
+covid1 <- read_xlsx("COVID19-Korea-2020-02-17.xlsx", sheet=1)
 
 symptom_by_p <- covid1$symptoms %>%
   sapply(function(x) strsplit(x, ",")) %>%
