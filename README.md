@@ -19,6 +19,7 @@ Last updated at 8:53 PM EST February 16, 2020
 ### Sheet 1: Line list
 
 * `case`: case identifier
+* `nationality`: nationality
 * `ncontact`: number of contactees
 * `nquaratine`: number of contactees that are under quarantine
 * `age`: age
