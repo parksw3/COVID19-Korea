@@ -6,8 +6,8 @@ library(readxl)
 source("color_palette.R")
 source("theme.R")
 
-covid2 <- read_xlsx("COVID19-Korea-2020-02-17.xlsx", sheet=2)
-covid3 <- read_xlsx("COVID19-Korea-2020-02-17.xlsx", sheet=3)
+covid2 <- read_xlsx("COVID19-Korea-2020-02-18.xlsx", sheet=2)
+covid3 <- read_xlsx("COVID19-Korea-2020-02-18.xlsx", sheet=3)
 
 covid2_gather <- covid2 %>%
   gather(key, value, -date, -`KCDC_no (https://www.cdc.go.kr/board/board.es?mid=a20501000000&bid=0015)`,
@@ -28,7 +28,7 @@ covid2_gather_diff <- covid2_gather %>%
 
 g1 <- ggplot(covid2_gather) +
   geom_bar(aes(date, value, fill=key), stat="identity") +
-  scale_x_datetime("Confirm dates") +
+  scale_x_datetime("Confirmed dates") +
   scale_y_continuous("Cumulative number of cases", expand=c(0, 0)) +
   scale_fill_manual(values=cpalette) +
   btheme +
@@ -58,7 +58,7 @@ g2_sub <- (g2 %+% filter(covid2_gather_diff, key=="positive")) +
   scale_fill_manual(values=cpalette[3]) 
 
 g3 <- g1 + annotation_custom(ggplotGrob(g1_sub), xmin = as.POSIXct("2020-01-18"), xmax = as.POSIXct("2020-02-05"), 
-                  ymin = 2650, ymax = 5300)
+                  ymin = 4650, ymax = 7800)
 
 covid_text <- covid3[c(1, 3, 7, 8),] %>%
   mutate(

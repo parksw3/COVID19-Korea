@@ -6,7 +6,7 @@ library(readxl)
 source("color_palette.R")
 source("theme.R")
 
-covid1 <- read_xlsx("COVID19-Korea-2020-02-17.xlsx", sheet=1, na="NA")
+covid1 <- read_xlsx("COVID19-Korea-2020-02-18.xlsx", sheet=1, na="NA")
 
 covid1_subset <- covid1 %>%
   filter(!is.na(date_discharged)) %>%
