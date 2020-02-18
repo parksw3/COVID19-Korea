@@ -14,7 +14,7 @@ Contact:
 
 Google sheets: https://docs.google.com/spreadsheets/d/1nKRkOwnGV7RgsMnsYE6l96u4xxl3ZaNiTluPKEPaWm8/edit?usp=sharing
 
-Last updated at 11:54 AM EST February 18, 2020 
+Last updated at 12:18 PM EST February 18, 2020 
 
 ### Sheet 1: Line list
 
@@ -40,6 +40,8 @@ Last updated at 11:54 AM EST February 18, 2020
 * `preexisting_conditions`: preexisting conditions prior to infection
 * `KCDC_no`: article number on the KCDC website
 * `date_last_accessed`: date on which articles were last accessed and the information was modified
+* `youtube`: links to the official press release video with Q&A session; sometimes contains more information than the KCDC website
+* `time`: Youtube time stamp
 
 ### Sheet 2: Cumulative case counts
 
