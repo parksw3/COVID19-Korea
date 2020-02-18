@@ -19,6 +19,9 @@ Last updated at 12:18 PM EST February 18, 2020
 ### Sheet 1: Line list
 
 * `case`: case identifier
+* `hospital_city`: Hospital location (city)
+* `lon`: Hospital location (longitude)
+* `lat`: Hospital location (latitude)
 * `nationality`: nationality
 * `ncontact`: number of contactees
 * `nquaratine`: number of contactees that are under quarantine
