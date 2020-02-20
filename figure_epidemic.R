@@ -6,8 +6,8 @@ library(readxl)
 source("color_palette.R")
 source("theme.R")
 
-covid2 <- read_xlsx("COVID19-Korea-2020-02-18.xlsx", sheet=2)
-covid3 <- read_xlsx("COVID19-Korea-2020-02-18.xlsx", sheet=3)
+covid2 <- read_xlsx("COVID19-Korea-2020-02-20.xlsx", sheet=2)
+covid3 <- read_xlsx("COVID19-Korea-2020-02-20.xlsx", sheet=3)
 
 covid2_gather <- covid2 %>%
   gather(key, value, -date, -`KCDC_no (https://www.cdc.go.kr/board/board.es?mid=a20501000000&bid=0015)`,
@@ -38,7 +38,9 @@ g1 <- ggplot(covid2_gather) +
   )
 
 g1_sub <- (g1 %+% filter(covid2_gather, key=="positive")) +
-  theme(legend.position="none")  +
+  theme(legend.position="none",
+        axis.text = element_text(size=5),
+        axis.title = element_text(size=8))  +
   scale_fill_manual(values=cpalette[3]) 
 
 g2 <- ggplot(covid2_gather_diff) +
@@ -54,11 +56,13 @@ g2 <- ggplot(covid2_gather_diff) +
   )
 
 g2_sub <- (g2 %+% filter(covid2_gather_diff, key=="positive")) +
-  theme(legend.position="none") +
+  theme(legend.position="none",
+        axis.text = element_text(size=5),
+        axis.title = element_text(size=8)) +
   scale_fill_manual(values=cpalette[3]) 
 
 g3 <- g1 + annotation_custom(ggplotGrob(g1_sub), xmin = as.POSIXct("2020-01-18"), xmax = as.POSIXct("2020-02-05"), 
-                  ymin = 4650, ymax = 7800)
+                  ymin = 4650, ymax = 8800)
 
 covid_text <- covid3[c(1, 3, 7, 8),] %>%
   mutate(

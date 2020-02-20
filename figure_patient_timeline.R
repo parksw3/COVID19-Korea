@@ -6,7 +6,7 @@ library(readxl)
 source("color_palette.R")
 source("theme.R")
 
-covid1 <- read_xlsx("COVID19-Korea-2020-02-18.xlsx", sheet=1, na="NA")
+covid1 <- read_xlsx("COVID19-Korea-2020-02-20.xlsx", sheet=1, na="NA")
 
 covid1_subset <- covid1 %>%
   filter(!is.na(date_discharged)) %>%
@@ -34,6 +34,14 @@ covid1_subset2 <- covid1_subset %>%
     date_relevant=pmax(date_onset, date_import)
   )
 
+covid1_unknown <- covid1 %>%
+  filter(!is.na(date_discharged)) %>%
+  filter(symptoms!="none before confirmation", is.na(date_onset)) %>%
+  mutate(
+    date_onset=date_confirm-24*3600,
+    case=paste0("Case ", case)
+  )
+
 g1 <- ggplot(covid1_subset_gather) +
   geom_segment(data=covid1_subset2, aes(x=date_relevant, xend=date_confirm, y=case, yend=case),
                col="#cc0066", size=5, alpha=0.5) +
@@ -42,6 +50,7 @@ g1 <- ggplot(covid1_subset_gather) +
   geom_segment(data=covid1_subset, aes(x=date_confirm, xend=date_discharged, y=case, yend=case),
                col="#ffcc00", size=5, alpha=0.5) +
   geom_point(aes(value, case, col=key), size=4) +
+  geom_point(data=covid1_unknown, aes(date_onset, case), size=4, col="black", shape="?") +
   scale_x_datetime(date_minor_breaks="1 day") +
   scale_color_manual(values=c("black", "#cc0066", "#ffcc00", "#66cccc")) +
   theme(
@@ -51,4 +60,4 @@ g1 <- ggplot(covid1_subset_gather) +
     axis.title = element_blank()
   )
 
-ggsave("figure_patient_timeline.png", g1, width=10, height=3)
+ggsave("figure_patient_timeline.png", g1, width=10, height=4)
