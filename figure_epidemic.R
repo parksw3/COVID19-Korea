@@ -81,4 +81,6 @@ g4 <- g2 + annotation_custom(ggplotGrob(g2_sub), xmin = as.POSIXct("2020-01-18")
 gtot <- arrangeGrob(g3, g4, nrow=1)
 
 # ggsave("figure_epidemic.pdf", gtot, width=10, height=5)
-ggsave("figure_epidemic.png", gtot, width=10, height=5)
+ggsave("figure_epidemic.png", gtot, width=12, height=5)
+# ggsave("figure_epidemic2.png", g4, width=6, height=5)
+
