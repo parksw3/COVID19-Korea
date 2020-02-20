@@ -36,8 +36,8 @@ sympdata <- symptom_by_p %>%
     symptoms=factor(symptoms, level=symptoms)
   )
 
-agegroup <- c("20-29", "30-39", "40-49", "50-59", "60-69", "70-79", "80+")
-agebreak <- c(20, 30, 40, 50, 60, 70, 80, 100)
+agegroup <- c("10-19", "20-29", "30-39", "40-49", "50-59", "60-69", "70-79", "80+")
+agebreak <- c(10, 20, 30, 40, 50, 60, 70, 80, 100)
 
 covid_age <- covid1 %>%
   mutate(
