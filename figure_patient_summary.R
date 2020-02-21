@@ -61,7 +61,7 @@ g1 <- ggplot(covid_age) +
 
 g2 <- ggplot(sympdata) +
   geom_bar(aes(symptoms, prop), stat="identity", fill=cpalette[3]) +
-  geom_text(aes(symptoms, prop+0.04, label=text)) +
+  geom_text(aes(symptoms, prop+0.03, label=text), size=2) +
   scale_y_continuous("Proportions", limits=c(0, 1), expand=c(0, 0)) +
   ggtitle("Symptoms") +
   btheme +
