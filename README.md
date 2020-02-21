@@ -5,7 +5,7 @@ Public line list and summaries of the COVID-19 outbreak in South Korea. Translat
 Sources:
 * KCDC press release: https://www.cdc.go.kr/board/board.es?mid=a20501000000&bid=0015  
 * Official Website of the Seoul Metropolitan City Government: http://news.seoul.go.kr/welfare/archives/513105
-* Official Blog of Daegu Metropolitan City Government: https://blog.naver.com/daegu_news/221787624291
+* Official Blog of Daegu Metropolitan City Government: https://blog.naver.com/daegu_news
 
 Contact:
 * email: swp2@princeton.edu  
