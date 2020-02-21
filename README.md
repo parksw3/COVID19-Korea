@@ -4,7 +4,8 @@ Public line list and summaries of the COVID-19 outbreak in South Korea. Translat
 
 Sources:
 * KCDC press release: https://www.cdc.go.kr/board/board.es?mid=a20501000000&bid=0015  
-* Official Website of the Seoul Metropolitan Government: http://news.seoul.go.kr/welfare/archives/513105
+* Official Website of the Seoul Metropolitan City Government: http://news.seoul.go.kr/welfare/archives/513105
+* Official Blog of Daegu Metropolitan City Government: https://blog.naver.com/daegu_news
 
 Contact:
 * email: swp2@princeton.edu  
@@ -14,7 +15,7 @@ Contact:
 
 Google sheets: https://docs.google.com/spreadsheets/d/1nKRkOwnGV7RgsMnsYE6l96u4xxl3ZaNiTluPKEPaWm8/edit?usp=sharing
 
-Last updated at 9:16 PM EST February 20, 2020 
+Last updated at 7:55 AM EST February 21, 2020 
 
 ### Sheet 1: Line list
 
@@ -46,9 +47,9 @@ Last updated at 9:16 PM EST February 20, 2020
 * `youtube`: links to the official press release video with Q&A session; sometimes contains more information than the KCDC website
 * `time`: Youtube time stamp
 
-### Sheet 2: Cumulative case counts
+### Sheet 2: Cumulative case counts based on the daily press release at 4PM
 
-* `date`: date
+* `date_report`: date reported
 * `suspected cases`: cumulative number of suspected cases
   * 2020-01-20 - 2020-01-25: anyone who develops fever or respiratory symptoms within 14 days of returning from Wuhan
   * 2020-01-26 - 2020-02-06: anyone who develops pneumonia (based on radiological evidence) within 14 days after returning from China
@@ -56,8 +57,8 @@ Last updated at 9:16 PM EST February 20, 2020
     * Anyone who develops fever or respiratory symptoms within 14 days of returning from China
     * Anyone who develops fever or respiratory symptoms within 14 days of having a close contact with a confirmed case
     * Anyone suspected of COVID-19 by a clinician based on travel history and clinical symptoms
-* `positive`: cumulative number of positive cases
-* `negative`: cumulative number of negative cases
+* `positive`: cumulative number of reported positive cases (different from confirmed cases)
+* `negative`: cumulative number of reported negative cases
 * `unknown`: number of individuals still under a test
 * `KCDC_no`: article number on the KCDC website
 * `note`: miscellaneous notes
