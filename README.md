@@ -15,7 +15,7 @@ Contact:
 
 Google sheets: https://docs.google.com/spreadsheets/d/1nKRkOwnGV7RgsMnsYE6l96u4xxl3ZaNiTluPKEPaWm8/edit?usp=sharing
 
-Last updated at 7:55 AM EST February 21, 2020 
+Last updated at 11:09 PM EST February 21, 2020 
 
 ### Sheet 1: Line list
 
@@ -63,7 +63,13 @@ Last updated at 7:55 AM EST February 21, 2020
 * `KCDC_no`: article number on the KCDC website
 * `note`: miscellaneous notes
 
-### Sheet 3: Important dates
+### Sheet 3: Cumulative case counts in Daegu
+
+* `date_report`: date reported
+* `positive`: cumulative number of reported positive cases (different from confirmed cases)
+* `source`: source
+
+### Sheet 4: Important dates
 
 * `date`: date
 * `event`: event
