@@ -36,7 +36,8 @@ Last updated at 9:51 PM EST February 22, 2020
 * `date_qurantine`: the first date of quarantine
 * `date_self_qurantine`: the first date of self-quarantine
 * `date_home_before_quarantine`: date on which a patient stayed home all day before they were quarantined; KCDC uses 'stayed home all day' with 'self-quarantine' interchangably in some cases.
-* `date_confirm`: date of confirmation
+* `date_confirm`: date confirmed
+* `date_report`: date reported (when date confirmed is unavailable; likely to have been confirmed on the same day or a day before)
 * `source`: sources of infection
 * `import_source`: sources of importation
 * `date_discharged`: date on which a patient is discharched
@@ -72,15 +73,13 @@ Last updated at 9:51 PM EST February 22, 2020
 * `note`: miscellaneous notes
 * `KCDC_no`: article number on the KCDC website
 
+### Sheet 5: Cumulative number of cases by age group
+
 # Summary figures
 
 ### Epidemic curves
 
 ![Epidemic curves](https://github.com/parksw3/COVID19-Korea/blob/master/figure_epidemic.png)
-
-### Summaries
-
-![Summaries](https://github.com/parksw3/COVID19-Korea/blob/master/figure_patient_summary.png)
 
 ### Patients discharged
 
