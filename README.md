@@ -15,7 +15,7 @@ Contact:
 
 Google sheets: https://docs.google.com/spreadsheets/d/1nKRkOwnGV7RgsMnsYE6l96u4xxl3ZaNiTluPKEPaWm8/edit?usp=sharing
 
-Last updated at 7:55 AM EST February 21, 2020 
+Last updated at 9:51 PM EST February 22, 2020 
 
 ### Sheet 1: Line list
 
@@ -47,7 +47,7 @@ Last updated at 7:55 AM EST February 21, 2020
 * `youtube`: links to the official press release video with Q&A session; sometimes contains more information than the KCDC website
 * `time`: Youtube time stamp
 
-### Sheet 2: Cumulative case counts based on the daily press release at 4PM
+### Sheet 2: Cumulative number of cases based on the daily press release at 4PM
 
 * `date_report`: date reported
 * `suspected cases`: cumulative number of suspected cases
@@ -63,7 +63,9 @@ Last updated at 7:55 AM EST February 21, 2020
 * `KCDC_no`: article number on the KCDC website
 * `note`: miscellaneous notes
 
-### Sheet 3: Important dates
+### Sheet 3: Cumulative number of cases by geographic region
+
+### Sheet 4: Important dates
 
 * `date`: date
 * `event`: event
