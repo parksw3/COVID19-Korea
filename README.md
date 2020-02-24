@@ -6,7 +6,7 @@ Sources:
 * KCDC press release: https://www.cdc.go.kr/board/board.es?mid=a20501000000&bid=0015  
 * Official Website of the Seoul Metropolitan City Government: http://news.seoul.go.kr/welfare/archives/513105
 * Official Blog of Daegu Metropolitan City Government: https://blog.naver.com/daegu_news
-* Official Website of the Ulsan Metropolitan City Government: http://www.ulsan.go.kr/corona.jsp
+* Official Website of the Ulsan Metropolitan City Government: https://www.ulsan.go.kr
 
 Contact:
 * email: swp2@princeton.edu  
