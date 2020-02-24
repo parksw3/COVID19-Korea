@@ -6,6 +6,7 @@ Sources:
 * KCDC press release: https://www.cdc.go.kr/board/board.es?mid=a20501000000&bid=0015  
 * Official Website of the Seoul Metropolitan City Government: http://news.seoul.go.kr/welfare/archives/513105
 * Official Blog of Daegu Metropolitan City Government: https://blog.naver.com/daegu_news
+* Official Website of the Gwangju Metropolitan City Government: https://www.gwangju.go.kr/
 * Official Website of the Ulsan Metropolitan City Government: https://www.ulsan.go.kr
 
 Contact:
@@ -16,7 +17,7 @@ Contact:
 
 Google sheets: https://docs.google.com/spreadsheets/d/1nKRkOwnGV7RgsMnsYE6l96u4xxl3ZaNiTluPKEPaWm8/edit?usp=sharing
 
-Last updated at 12:26 PM EST February 24, 2020 
+Last updated at 1:10 PM EST February 24, 2020 
 
 ### Sheet 1: Line list
 
