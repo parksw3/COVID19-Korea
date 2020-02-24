@@ -6,8 +6,8 @@ library(readxl)
 source("color_palette.R")
 source("theme.R")
 
-covid2 <- read_xlsx("COVID19-Korea-2020-02-22.xlsx", sheet=2)
-covid3 <- read_xlsx("COVID19-Korea-2020-02-22.xlsx", sheet=4)
+covid2 <- read_xlsx("COVID19-Korea-2020-02-24.xlsx", sheet=2)
+covid3 <- read_xlsx("COVID19-Korea-2020-02-24.xlsx", sheet=4)
 
 covid2_gather <- covid2 %>%
   select(-discharged, -death) %>%
@@ -88,7 +88,7 @@ ggsave("figure_epidemic.png", gtot, width=12, height=5)
 g2_sub2 <- g2_sub +
   geom_text(aes(date_report, value+10, label=value), size=2) +
   scale_x_datetime("Date reported",
-                   limits=as.POSIXct(as.Date(c("2020-02-16", "2020-02-23")))) +
+                   limits=as.POSIXct(as.Date(c("2020-02-16", "2020-02-24")))) +
   scale_y_continuous("Daily number of cases", expand=c(0, 0), limits=c(0, 300))
 
 g5 <- g2 + annotation_custom(ggplotGrob(g2_sub2), xmin = as.POSIXct("2020-01-18"), xmax = as.POSIXct("2020-02-05"), 

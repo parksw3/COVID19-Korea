@@ -85,6 +85,12 @@ Last updated at 2:31 PM EST February 24, 2020
 
 ![Epidemic curves](https://github.com/parksw3/COVID19-Korea/blob/master/figure_epidemic.png)
 
+### Epidemic curves by geographical regions
+
+![Epidemic curves](https://github.com/parksw3/COVID19-Korea/blob/master/figure_geographic_distribution.png)
+
 ### Patients discharged
 
 ![Patients discharged](https://github.com/parksw3/COVID19-Korea/blob/master/figure_patient_timeline.png)
+
+

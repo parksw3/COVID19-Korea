@@ -6,7 +6,7 @@ library(readxl)
 source("color_palette.R")
 source("theme.R")
 
-covid1 <- read_xlsx("COVID19-Korea-2020-02-21.xlsx", sheet=1, na="NA")
+covid1 <- read_xlsx("COVID19-Korea-2020-02-24.xlsx", sheet=1, na="NA")
 
 covid1_subset <- covid1 %>%
   filter(!is.na(date_discharged)) %>%
@@ -60,4 +60,4 @@ g1 <- ggplot(covid1_subset_gather) +
     axis.title = element_blank()
   )
 
-ggsave("figure_patient_timeline.png", g1, width=10, height=4)
+ggsave("figure_patient_timeline.png", g1, width=10, height=5)
