@@ -17,7 +17,7 @@ Contact:
 
 Google sheets: https://docs.google.com/spreadsheets/d/1nKRkOwnGV7RgsMnsYE6l96u4xxl3ZaNiTluPKEPaWm8/edit?usp=sharing
 
-Last updated at 12:12 AM EST February 25, 2020 
+Last updated at 2:12 AM EST February 25, 2020 
 
 ### Sheet 1: Line list
 
@@ -66,7 +66,8 @@ Last updated at 12:12 AM EST February 25, 2020
 * `KCDC_no`: article number on the KCDC website
 * `note`: miscellaneous notes
 
-### Sheet 3: Cumulative number of cases by geographic region
+### Sheet 3: Reported number of confirmed cases by geographic region (based on 9:00 and 16:00 press releases)
+* Based on the reported regions rather than residential regions; numbers may be subject to change
 
 ### Sheet 4: Important dates
 
@@ -75,7 +76,7 @@ Last updated at 12:12 AM EST February 25, 2020
 * `note`: miscellaneous notes
 * `KCDC_no`: article number on the KCDC website
 
-### Sheet 5: Cumulative number of cases by age group based on the official press release (9:00 AM)
+### Sheet 5: Cumulative number of cases by age group (based on 9:00 press releases)
 
 ### Sheet 6: Confirmed death
 
