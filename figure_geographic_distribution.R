@@ -8,7 +8,7 @@ library(lme4)
 source("color_palette.R")
 source("theme.R")
 
-covid1 <- read_xlsx("COVID19-Korea-2020-02-24.xlsx", sheet=3, na="NA")
+covid1 <- read_xlsx("COVID19-Korea-2020-02-25.xlsx", sheet=3, na="NA")
 
 covid1_geo_all <- covid1 %>%
   gather(key, value, -date_report, -time_report, -total) %>%
@@ -35,13 +35,13 @@ covid1_geo <- covid1 %>%
 
 int_breaks <- function(x, n = 6) pretty(x*2, n)[pretty(x*2, n) %% 1 == 0] 
 
-datelabel <- c("Feb 19", "Feb 21", "Feb 23")
+datelabel <- c("Feb 19", "Feb 21", "Feb 23", "Feb 25")
 
 g1 <- ggplot(covid1_geo) +
   geom_line(aes(day, cases)) +
   scale_y_continuous("Daily number of confirmed cases", breaks=int_breaks) +
   scale_x_continuous("Date reported",
-                     breaks=c(1, 3, 5),
+                     breaks=c(1, 3, 5, 7),
                      labels=datelabel) +
   facet_wrap(~key, scale="free") +
   btheme +

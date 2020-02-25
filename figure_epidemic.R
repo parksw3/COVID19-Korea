@@ -6,8 +6,8 @@ library(readxl)
 source("color_palette.R")
 source("theme.R")
 
-covid2 <- read_xlsx("COVID19-Korea-2020-02-24.xlsx", sheet=2)
-covid3 <- read_xlsx("COVID19-Korea-2020-02-24.xlsx", sheet=4)
+covid2 <- read_xlsx("COVID19-Korea-2020-02-25.xlsx", sheet=2)
+covid3 <- read_xlsx("COVID19-Korea-2020-02-25.xlsx", sheet=4)
 
 covid2_gather <- covid2 %>%
   select(-discharged, -death) %>%
@@ -47,7 +47,7 @@ g1_sub <- (g1 %+% filter(covid2_gather, key=="positive")) +
 g2 <- ggplot(covid2_gather_diff) +
   geom_hline(yintercept=0, lty=2) +
   geom_bar(aes(date_report, value, fill=key), stat="identity", position="dodge") +
-  scale_x_datetime("Date reported", expand=c(0, 0)) +
+  scale_x_datetime("Date reported") +
   scale_y_continuous("Daily number of cases", expand=c(0, 0)) +
   scale_fill_manual(values=cpalette)  +
   btheme +
@@ -63,7 +63,7 @@ g2_sub <- (g2 %+% filter(covid2_gather_diff, key=="positive")) +
   scale_fill_manual(values=cpalette[3]) 
 
 g3 <- g1 + annotation_custom(ggplotGrob(g1_sub), xmin = as.POSIXct("2020-01-18"), xmax = as.POSIXct("2020-02-05"), 
-                  ymin = 6640, ymax = 14400)
+                  ymin = 20000, ymax = 35000)
 
 covid_text <- covid3[c(1, 3, 7, 8),] %>%
   mutate(
@@ -74,9 +74,7 @@ covid_text <- covid3[c(1, 3, 7, 8),] %>%
   )
 
 g4 <- g2 + annotation_custom(ggplotGrob(g2_sub), xmin = as.POSIXct("2020-01-18"), xmax = as.POSIXct("2020-02-05"), 
-                             ymin = 1000, ymax = 2500) +
-  geom_text(data=covid_text, aes(date, c(-110, -110, -110, -290), label=esumm), size=2.2,
-            lineheight=0.85) +
+                             ymin = 2500, ymax = 4500) +
   geom_segment(data=covid_text, aes(date, xend=date, y=0, yend=-80), lty=3, size=0.2)
 
 gtot <- arrangeGrob(g3, g4, nrow=1)
@@ -86,15 +84,13 @@ ggsave("figure_epidemic.png", gtot, width=12, height=5)
 # ggsave("figure_epidemic2.png", g4, width=6, height=5)
 
 g2_sub2 <- g2_sub +
-  geom_text(aes(date_report, value+10, label=value), size=2) +
+  geom_text(aes(date_report, value+20, label=value), size=2) +
   scale_x_datetime("Date reported",
-                   limits=as.POSIXct(as.Date(c("2020-02-16", "2020-02-24")))) +
+                   limits=as.POSIXct(as.Date(c("2020-02-16", "2020-02-26")))) +
   scale_y_continuous("Daily number of cases", expand=c(0, 0), limits=c(0, 300))
 
-g5 <- g2 + annotation_custom(ggplotGrob(g2_sub2), xmin = as.POSIXct("2020-01-18"), xmax = as.POSIXct("2020-02-05"), 
-                             ymin = 1000, ymax = 2500) +
-  geom_text(data=covid_text, aes(date, c(-110, -110, -110, -250), label=esumm), size=2.2,
-            lineheight=0.85) +
+g5 <- g2 + annotation_custom(ggplotGrob(g2_sub2), xmin = as.POSIXct("2020-01-18"), xmax = as.POSIXct("2020-02-06"), 
+                             ymin = 1000, ymax = 3500) +
   geom_segment(data=covid_text, aes(date, xend=date, y=0, yend=-80), lty=3, size=0.2)
 
 ggsave("figure_epidemic2.png", g5, width=6, height=5)
