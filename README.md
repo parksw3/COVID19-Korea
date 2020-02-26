@@ -17,7 +17,7 @@ Contact:
 
 Google sheets: https://docs.google.com/spreadsheets/d/1nKRkOwnGV7RgsMnsYE6l96u4xxl3ZaNiTluPKEPaWm8/edit?usp=sharing
 
-Last updated at 2:12 AM EST February 25, 2020 
+Last updated at 11:29 PM EST February 25, 2020 
 
 ### Sheet 1: Line list
 
