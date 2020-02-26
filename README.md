@@ -5,9 +5,11 @@ Public line list and summaries of the COVID-19 outbreak in South Korea. Translat
 Sources:
 * KCDC press release: https://www.cdc.go.kr/board/board.es?mid=a20501000000&bid=0015  
 * Official Website of the Seoul Metropolitan City Government: http://news.seoul.go.kr/welfare/archives/513105
+* Official Website of the Busan Metropolitan City Government: http://www.busan.go.kr/corona/index.jsp
 * Official Blog of Daegu Metropolitan City Government: https://blog.naver.com/daegu_news
 * Official Website of the Gwangju Metropolitan City Government: https://www.gwangju.go.kr/
 * Official Website of the Ulsan Metropolitan City Government: https://www.ulsan.go.kr
+* Official Website of Gyeonggi Province Government: https://gnews.gg.go.kr/news/gongbo_main.do?s_code=S017&b_code=BO01&type_m=main
 
 Contact:
 * email: swp2@princeton.edu  
