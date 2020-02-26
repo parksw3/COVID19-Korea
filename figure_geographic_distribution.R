@@ -8,7 +8,7 @@ library(lme4)
 source("color_palette.R")
 source("theme.R")
 
-covid1 <- read_xlsx("COVID19-Korea-2020-02-25.xlsx", sheet=3, na="NA")
+covid1 <- read_xlsx("COVID19-Korea-2020-02-26.xlsx", sheet=3, na="NA")
 
 covid1_geo_all <- covid1 %>%
   gather(key, value, -date_report, -time_report, -total) %>%
@@ -49,4 +49,4 @@ g1 <- ggplot(covid1_geo) +
     strip.background = element_blank()
   )
 
-ggsave("figure_geographic_distribution.png", g1, width=12, height=8)
+ggsave("figure_geographic_distribution.png", g1, width=16, height=8)
