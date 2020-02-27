@@ -6,7 +6,7 @@ library(readxl)
 source("color_palette.R")
 source("theme.R")
 
-covid1 <- read_xlsx("COVID19-Korea-2020-02-25.xlsx", sheet=1, na="NA")
+covid1 <- read_xlsx("COVID19-Korea-2020-02-27.xlsx", sheet=1, na="NA")
 
 covid1_subset <- covid1 %>%
   filter(!is.na(date_discharged)) %>%
@@ -43,7 +43,7 @@ covid1_unknown <- covid1 %>%
   )
 
 g1 <- ggplot(covid1_subset_gather) +
-  geom_segment(data=covid1_subset2, aes(x=date_relevant, xend=date_confirm, y=case, yend=case),
+  geom_segment(data=covid1_subset2, aes(x=date_onset, xend=date_confirm, y=case, yend=case),
                col="#cc0066", size=5, alpha=0.5) +
   geom_segment(data=filter(covid1_subset, is.na(date_import)), aes(x=date_onset, xend=date_confirm, y=case, yend=case),
                col="#cc0066", size=5, alpha=0.5) +

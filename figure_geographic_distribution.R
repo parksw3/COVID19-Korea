@@ -8,7 +8,7 @@ library(lme4)
 source("color_palette.R")
 source("theme.R")
 
-covid1 <- read_xlsx("COVID19-Korea-2020-02-26.xlsx", sheet=3, na="NA")
+covid1 <- read_xlsx("COVID19-Korea-2020-02-27.xlsx", sheet=3, na="NA")
 
 covid1_geo_all <- covid1 %>%
   gather(key, value, -date_report, -time_report, -total) %>%
