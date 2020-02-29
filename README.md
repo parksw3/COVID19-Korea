@@ -71,7 +71,7 @@ Last updated at 12:17 PM EST February 29, 2020
 * `KCDC_no`: article number on the KCDC website
 * `note`: miscellaneous notes
 
-### Sheet 3: Reported number of confirmed cases by geographic region (based on 9:00 and 16:00 press releases)
+### Sheet 3: Reported number of confirmed cases by geographic region (based on 9AM and 4PM press releases)
 * Based on the reported regions rather than residential regions; numbers may be subject to change
 
 ### Sheet 4: Important dates
@@ -81,7 +81,7 @@ Last updated at 12:17 PM EST February 29, 2020
 * `note`: miscellaneous notes
 * `KCDC_no`: article number on the KCDC website
 
-### Sheet 5: Cumulative number of cases by age group (based on 9:00 press releases)
+### Sheet 5: Cumulative number of cases by age group (based on the official press releases)
 
 ### Sheet 6: Confirmed death
 
