@@ -37,10 +37,11 @@ Last updated at 10:34 AM EST February 29, 2020
 * `date_contact_max`: the last date on which a patient could have been infected (e.g., before symptom onset, before self-quarantine, before their infectors were confirmed to be infected, etc.)
 * `date_import`: date of import
 * `date_onset`: date of symptom onset
-* `date_qurantine`: the first date of quarantine
+* `date_hospitalized`: date hospitalized
 * `date_self_qurantine`: the first date of self-quarantine
 * `date_home_before_quarantine`: date on which a patient stayed home all day before they were quarantined; KCDC uses 'stayed home all day' with 'self-quarantine' interchangably in some cases.
 * `date_confirm`: date confirmed
+* `date_rehospitalized`: date re-hospitalized (case 25 was re-confirmed after being discharged)
 * `date_report`: date reported (when date confirmed is unavailable; likely to have been confirmed on the same day or a day before)
 * `source`: sources of infection
 * `import_source`: sources of importation
