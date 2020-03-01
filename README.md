@@ -81,19 +81,3 @@ Last updated at 10:35 AM EST February 27, 2020
 ### Sheet 5: Cumulative number of cases by age group (based on 9:00 press releases)
 
 ### Sheet 6: Confirmed death
-
-# Summary figures
-
-### Epidemic curves
-
-![Epidemic curves](https://github.com/parksw3/COVID19-Korea/blob/master/figure_epidemic.png)
-
-### Epidemic curves by geographical regions
-
-![Epidemic curves](https://github.com/parksw3/COVID19-Korea/blob/master/figure_geographic_distribution.png)
-
-### Patients discharged
-
-![Patients discharged](https://github.com/parksw3/COVID19-Korea/blob/master/figure_patient_timeline.png)
-
-
