@@ -19,7 +19,7 @@ Contact:
 
 Google sheets: https://docs.google.com/spreadsheets/d/1nKRkOwnGV7RgsMnsYE6l96u4xxl3ZaNiTluPKEPaWm8/edit?usp=sharing
 
-Last updated at 12:35 PM EST February 29, 2020 
+Last updated at 7:36 AM EST March 1, 2020 
 
 ### Sheet 1: Line list
 
@@ -72,6 +72,7 @@ Last updated at 12:35 PM EST February 29, 2020
 * `note`: miscellaneous notes
 
 ### Sheet 3: Reported number of confirmed cases by geographic region (based on 9AM and 4PM press releases)
+
 * Based on the reported regions rather than residential regions; numbers may be subject to change
 
 ### Sheet 4: Important dates
@@ -84,6 +85,10 @@ Last updated at 12:35 PM EST February 29, 2020
 ### Sheet 5: Cumulative number of cases by age group (based on the official press releases)
 
 ### Sheet 6: Confirmed death
+
+### Sheet 7: Discharged
+
+* decided to keep track of them in a separate sheet because case numbers are missing for some of them
 
 # Summary figures
 
