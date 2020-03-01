@@ -19,7 +19,7 @@ Contact:
 
 Google sheets: https://docs.google.com/spreadsheets/d/1nKRkOwnGV7RgsMnsYE6l96u4xxl3ZaNiTluPKEPaWm8/edit?usp=sharing
 
-Last updated at 10:35 AM EST February 27, 2020 
+Last updated at 7:48 AM EST March 1, 2020 
 
 ### Sheet 1: Line list
 
@@ -37,10 +37,13 @@ Last updated at 10:35 AM EST February 27, 2020
 * `date_contact_max`: the last date on which a patient could have been infected (e.g., before symptom onset, before self-quarantine, before their infectors were confirmed to be infected, etc.)
 * `date_import`: date of import
 * `date_onset`: date of symptom onset
-* `date_qurantine`: the first date of quarantine
+* `date_onset_min`: the first date on which a patient could have had onset of symptoms
+* `date_onset_min`: the last date on which a patient could have had onset of symptoms
+* `date_hospitalized`: date hospitalized
 * `date_self_qurantine`: the first date of self-quarantine
 * `date_home_before_quarantine`: date on which a patient stayed home all day before they were quarantined; KCDC uses 'stayed home all day' with 'self-quarantine' interchangably in some cases.
 * `date_confirm`: date confirmed
+* `date_rehospitalized`: date re-hospitalized (case 25 was re-confirmed after being discharged)
 * `date_report`: date reported (when date confirmed is unavailable; likely to have been confirmed on the same day or a day before)
 * `source`: sources of infection
 * `import_source`: sources of importation
@@ -68,7 +71,8 @@ Last updated at 10:35 AM EST February 27, 2020
 * `KCDC_no`: article number on the KCDC website
 * `note`: miscellaneous notes
 
-### Sheet 3: Reported number of confirmed cases by geographic region (based on 9:00 and 16:00 press releases)
+### Sheet 3: Reported number of confirmed cases by geographic region (based on 9AM and 4PM press releases)
+
 * Based on the reported regions rather than residential regions; numbers may be subject to change
 
 ### Sheet 4: Important dates
@@ -78,6 +82,10 @@ Last updated at 10:35 AM EST February 27, 2020
 * `note`: miscellaneous notes
 * `KCDC_no`: article number on the KCDC website
 
-### Sheet 5: Cumulative number of cases by age group (based on 9:00 press releases)
+### Sheet 5: Cumulative number of cases by age group (based on the official press releases)
 
 ### Sheet 6: Confirmed death
+
+### Sheet 7: Discharged
+
+* decided to keep track of them in a separate sheet because case numbers are missing for some of them
