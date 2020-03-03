@@ -58,18 +58,22 @@ Last updated at 10:16 AM EST March 3, 2020
 ### Sheet 2: Cumulative number of cases based on the daily press release at 4PM
 
 * `date_report`: date reported
+* `time_report`: time reported
 * `suspected cases`: cumulative number of suspected cases
   * 2020-01-20 - 2020-01-25: anyone who develops fever or respiratory symptoms within 14 days of returning from Wuhan
   * 2020-01-26 - 2020-02-06: anyone who develops pneumonia (based on radiological evidence) within 14 days after returning from China
-  * 2020-02-07 - now:
+  * 2020-02-07 - ???:
     * Anyone who develops fever or respiratory symptoms within 14 days of returning from China
     * Anyone who develops fever or respiratory symptoms within 14 days of having a close contact with a confirmed case
     * Anyone suspected of COVID-19 by a clinician based on travel history and clinical symptoms
+  * 2020-03-02 - now:
+    * Anyone who develops fever or respiratory symptoms within 14 days of returning from countries with COVID-19
+    * Anyone who develops fever or respiratory symptoms within 14 days of having a close contact with a confirmed case
+    * Anyone who has pneumonia with unknown etiology or is suspected of COVID-19 by a clinician
 * `positive`: cumulative number of reported positive cases (different from confirmed cases)
 * `negative`: cumulative number of reported negative cases
 * `unknown`: number of individuals still under a test
 * `KCDC_no`: article number on the KCDC website
-* `note`: miscellaneous notes
 
 ### Sheet 3: Reported number of confirmed cases by geographic region (based on 9AM and 4PM press releases)
 
