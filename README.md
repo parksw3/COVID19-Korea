@@ -92,4 +92,4 @@ Last updated at 10:16 AM EST March 3, 2020
 
 ### Sheet 8: Community
 
-* Cumulative incidence time series stratified by community
+* Cumulative incidence time series stratified by community (for sufficiently large communities)
