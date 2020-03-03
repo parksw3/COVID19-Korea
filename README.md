@@ -19,7 +19,7 @@ Contact:
 
 Google sheets: https://docs.google.com/spreadsheets/d/1nKRkOwnGV7RgsMnsYE6l96u4xxl3ZaNiTluPKEPaWm8/edit?usp=sharing
 
-Last updated at 3:25 AM EST March 3, 2020 
+Last updated at 10:16 AM EST March 3, 2020 
 
 ### Sheet 1: Line list
 
@@ -89,3 +89,7 @@ Last updated at 3:25 AM EST March 3, 2020
 ### Sheet 7: Discharged
 
 * decided to keep track of them in a separate sheet because case numbers are missing for some of them
+
+### Sheet 8: Community
+
+* Cumulative incidence time series stratified by community
