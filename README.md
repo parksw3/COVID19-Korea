@@ -19,6 +19,8 @@ Contact:
 
 Google sheets: https://docs.google.com/spreadsheets/d/1nKRkOwnGV7RgsMnsYE6l96u4xxl3ZaNiTluPKEPaWm8/edit?usp=sharing
 
+Regional reports: https://docs.google.com/spreadsheets/d/1TqawYd4GRok9NznY9i1xpCjkTwLwk6nd16c_Jwnh1nw/edit#gid=0
+
 Last updated at 1:59 PM EST March 8, 2020 
 
 ### Sheet 1: Line list
