@@ -92,10 +92,10 @@ Last updated at 4:54 PM EST March 14, 2020
 
 ### Sheet 6: Confirmed death
 
-### Sheet 7: Discharged
-
-* decided to keep track of them in a separate sheet because case numbers are missing for some of them
-
-### Sheet 8: Community
+### Sheet 7: Community
 
 * Cumulative incidence time series stratified by community (for sufficiently large communities)
+
+### Sheet 8: Cumulative deaths
+
+* Cumulative number of deaths by age group
