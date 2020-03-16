@@ -21,7 +21,7 @@ Google sheets: https://docs.google.com/spreadsheets/d/1nKRkOwnGV7RgsMnsYE6l96u4x
 
 Regional reports: https://docs.google.com/spreadsheets/d/1TqawYd4GRok9NznY9i1xpCjkTwLwk6nd16c_Jwnh1nw/edit?usp=sharing
 
-Last updated at 4:43 PM EST March 11, 2020 
+Last updated at 4:09 AM EST March 15, 2020 
 
 ### Sheet 1: Line list
 
@@ -92,10 +92,10 @@ Last updated at 4:43 PM EST March 11, 2020
 
 ### Sheet 6: Confirmed death
 
-### Sheet 7: Discharged
-
-* decided to keep track of them in a separate sheet because case numbers are missing for some of them
-
-### Sheet 8: Community
+### Sheet 7: Community
 
 * Cumulative incidence time series stratified by community (for sufficiently large communities)
+
+### Sheet 8: Cumulative deaths
+
+* Cumulative number of deaths by age group
