@@ -7,11 +7,11 @@ library(gridExtra)
 source("../R/color_palette.R")
 source("../R/theme.R")
 
-covid1 <- read_xlsx("../COVID19-Korea-2020-03-11.xlsx", na="NA")
-covid2 <- read_xlsx("../COVID19-Korea-2020-03-11.xlsx", na="NA", sheet=2)
-covid3 <- read_xlsx("../COVID19-Korea-2020-03-11.xlsx", na="NA", sheet=3)
-covid5 <- read_xlsx("../COVID19-Korea-2020-03-11.xlsx", na="NA", sheet=5) ## age
-covid9 <- read_xlsx("../COVID19-Korea-2020-03-11.xlsx", na="NA", sheet=9)
+covid1 <- read_xlsx("../COVID19-Korea-2020-03-13.xlsx", na="NA")
+covid2 <- read_xlsx("../COVID19-Korea-2020-03-13.xlsx", na="NA", sheet=2)
+covid3 <- read_xlsx("../COVID19-Korea-2020-03-13.xlsx", na="NA", sheet=3)
+covid5 <- read_xlsx("../COVID19-Korea-2020-03-13.xlsx", na="NA", sheet=5) ## age
+covid9 <- read_xlsx("../COVID19-Korea-2020-03-13.xlsx", na="NA", sheet=8)
 
 agecut <- c(0, 10, 20, 30, 40, 50, 60, 70, 80, 120)
 agegroup <- c("0-9", "10-19", "20-29", "30-39", "40-49", "50-59", "60-69", "70-79", "80+")
@@ -51,7 +51,7 @@ g1 <- ggplot(age_gather) +
                 lty=key)) +
   geom_point(aes(date_report, value, group=key, col=key,
                 shape=key)) +
-  scale_x_datetime("Date reported", limits=as.POSIXct(c("2020-02-22", "2020-03-13"))+15*3600, expand=c(0, 0)) +
+  scale_x_datetime("Date reported", limits=as.POSIXct(c("2020-02-22", "2020-03-16"))+15*3600, expand=c(0, 0)) +
   scale_y_log10("Cumulative number of confirmed cases", expand=c(0, 0),
                 limits=c(1, 4000)) +
   ggtitle("A. Don't fit exponential growth curves to cumulative cases") +
