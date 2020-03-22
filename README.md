@@ -21,7 +21,7 @@ Google sheets: https://docs.google.com/spreadsheets/d/1nKRkOwnGV7RgsMnsYE6l96u4x
 
 Regional reports: https://docs.google.com/spreadsheets/d/1TqawYd4GRok9NznY9i1xpCjkTwLwk6nd16c_Jwnh1nw/edit?usp=sharing
 
-Last updated at 4:01 PM EST March 19, 2020 
+Last updated at 5:13 PM EST March 22, 2020 
 
 ### Sheet 1: Line list
 
