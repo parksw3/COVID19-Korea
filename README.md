@@ -21,7 +21,8 @@ Google sheets: https://docs.google.com/spreadsheets/d/1nKRkOwnGV7RgsMnsYE6l96u4x
 
 Regional reports: https://docs.google.com/spreadsheets/d/1TqawYd4GRok9NznY9i1xpCjkTwLwk6nd16c_Jwnh1nw/edit?usp=sharing
 
-Last updated at 6:18 PM EST April 6, 2020 
+Last updated at 3:14 PM EST May 17, 2020 
+* Sheets 2, 3, 5 and 8 are up to date. Other sheets haven't been updated or the KCDC stopped providing related information in their press release.
 
 ### Sheet 1: Line list
 
@@ -57,7 +58,7 @@ Last updated at 6:18 PM EST April 6, 2020
 * `youtube`: links to the official press release video with Q&A session; sometimes contains more information than the KCDC website
 * `time`: Youtube time stamp
 
-### Sheet 2: Cumulative number of cases based on the daily press release at 4PM
+### Sheet 2: Cumulative number of cases based on the daily press release
 
 * `date_report`: date reported
 * `time_report`: time reported
@@ -65,7 +66,7 @@ Last updated at 6:18 PM EST April 6, 2020
 * `positive`: cumulative number of reported positive cases (different from confirmed cases)
 * `negative`: cumulative number of reported negative cases
 
-### Sheet 3: Reported number of confirmed cases by geographic region (based on 9AM and 4PM press releases)
+### Sheet 3: Reported number of confirmed cases by geographic region
 
 * Based on the reported regions rather than residential regions; numbers may be subject to change
 
@@ -76,7 +77,7 @@ Last updated at 6:18 PM EST April 6, 2020
 * `note`: miscellaneous notes
 * `KCDC_no`: article number on the KCDC website
 
-### Sheet 5: Cumulative number of cases by age group (based on the official press releases)
+### Sheet 5: Cumulative number of cases by age group
 
 ### Sheet 6: Confirmed death
 
